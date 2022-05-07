@@ -1,0 +1,7 @@
+xpType:iperfScenario
+clientPcap:yes
+serverPcap:yes
+snaplenPcap:100
+iperfScenarioFMSublows:4
+pquicSize:5120000
+pquicPlugins:/home/seclee/NetExmHub/pquic/plugins/multipath/multipath_rtt_cond.plugin

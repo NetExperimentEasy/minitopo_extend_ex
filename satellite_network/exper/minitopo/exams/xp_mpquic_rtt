@@ -1,0 +1,6 @@
+xpType:mpquic
+clientPcap:yes
+serverPcap:yes
+snaplenPcap:100
+pquicSize:5120000000
+pquicPlugins:/home/seclee/NetExmHub/pquic/plugins/multipath/multipath_rtt_cond.plugin

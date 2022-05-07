@@ -1,0 +1,13 @@
+leftSubnet:10.0.
+rightSubnet:10.1.
+#path_c2r_0:10,40,20
+#path_c2r_1:40,160,20
+#不能是0，因为自动计算队列会除这个0
+#这块由于自己设置时延迟，所以队列需要自己计算
+#bandwidth_delay_product = (float(bandwidth) * 125000.0) * (2*delay / 1000.0)
+path_c2r_0:0.5,166,20
+path_c2r_1:0.5,166,20
+topoType:MultiIfMultiClient
+
+
+#path_x:delay,queueSize(may be calc),bw
